@@ -27,10 +27,11 @@
             margin-left: 90px;
         }
         &-img {
-            img {
-                width: 400px;
-                margin-top: 60px;
-            }
+            margin-left: 20px;
+            // img {
+            //     width: 400px;
+            //     margin-top: 60px;
+            // }
         }
     }
     .second {
@@ -98,7 +99,7 @@
         }
         &-right {
             width: 48%;
-            font-size: 44px;
+            font-size: 40px;
             padding-top: 155px;
         }
     }
@@ -161,13 +162,14 @@
 }
 @media (max-width: 991px) {
     .container {
-        max-width: 750px;
+        max-width: 680px;
     }
     h2 {
         font-size: 33px;
     }
     .descr {
         margin: 70px 0 0 0px;
+        width: 380px;
     }
     p {
         font-size: 17px;
@@ -203,7 +205,10 @@
     }
     .first {
         min-height: 580px;
-        padding-left: 80px;
+        padding-left: 70px;
+        &-wrapper {
+            padding-left: 15px;
+        }
         &-right {
             img {
                 width: 300px;
@@ -213,29 +218,38 @@
             margin-top: 20px;
         }
         &-img {
-            img {
-                width: 360px;
-                margin: 10px 0 0 50px;
-            }
+            // img {
+            //     width: 320px;
+            //     margin: 40px 0 0 30px;
+            // }
         }
         .low {
             margin-top: 80px;
         }
     }
     .second {
-        padding-left: 90px;
+        padding-left: 70px;
         &-descr {
             margin-left: 0;
         }
+        &-wrapper {
+            padding-left: 10px;
+        }
         &-img {
-            height: 370px;
+            height: 340px;
+            width: 440px;
+            margin-top: 50px;
         }
     }
     .three {
+        padding-left: 70px;
         &-img {
-            width: 430px;
+            width: 410px;
             height: 350px;
             margin: 40px 0 0 0px;
+        }
+        &-descr {
+            margin-left: 20px;
         }
     }
     .colored {
@@ -260,10 +274,13 @@
     .five {
         &-left {
             margin-left: 90px;
+            padding-left: 10px;
+            width: 48%;
         }
         &-right {
-            font-size: 37px;
-            padding-top: 80px;
+            font-size: 33px;
+            width: 50%;
+            padding: 150px 10px 0;
         }
     }
     .footer {
@@ -278,6 +295,10 @@
         }
         &-input {
             height: 65px;
+            width: 280px;
+            i {
+                margin-top: 21px;
+            }
         }
     }
     .gradient {
@@ -346,7 +367,7 @@
 }
 @media (max-width: 767px) {
     .container {
-        max-width: 560px;
+        max-width: 510px;
     }
     .logo {
         font-size: 23px;
@@ -399,9 +420,9 @@
     .first {
         min-height: 480px;
         &-img {
-            img {
-                width: 290px;
-            }
+            // img {
+            //     width: 250px;
+            // }
         }
         &-descr {
             margin-top: 30px;
@@ -509,7 +530,8 @@
             margin: 20px 0 0 20px;
         }
         &-right {
-            font-size: 31px;
+            font-size: 28px;
+            padding-top: 100px;
         }
     }
     .footer {
